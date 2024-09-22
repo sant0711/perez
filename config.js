@@ -39,8 +39,8 @@ global.miniurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/J1R402WH1N0Hdl3S0NDEYu'
-global.canal = 'https://whatsapp.com/channel/0029VaBpO8M3rZZdwkGFIP33'
+global.group = 'https://chat.whatsapp.com/ECbe0H5FdrIHR1mC6tp6ND'
+global.canal = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
