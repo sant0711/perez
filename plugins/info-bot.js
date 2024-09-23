@@ -7,7 +7,7 @@ if (chat.isBaneed) return
 if (/^bot$/i.test(m.text)) {
 conn.reply(m.chat, `🌟 ¡Hola! Soy Sisked, en que puedo ayudarte hoy?\n\n✰ Usa *.menu* para ver mis comandos.`, m, rcanal, )
 }
-if (/^que|q$/i.test(m.text)) {
+if (/^.que$/i.test(m.text)) {
 conn.reply(m.chat, `*so*`, m, rcanal, )
 }
 
