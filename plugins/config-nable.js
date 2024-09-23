@@ -37,15 +37,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.antiLink = isEnable
       break
 
-      case 'antilink2':
+          case 'antilink2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
-          global.dfail('admin', m, conn)
-          throw false
+          global.dfail('admin', m, conn);
+          throw false;
         }
       }
-      chat.antiLink2 = isEnable
-      break
+      chat.antiLink2 = isEnable;
+      break;
       
       case 'antiprivado':
       if (m.isGroup) {
