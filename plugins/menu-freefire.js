@@ -16,8 +16,8 @@ let user = global.db.data.users[m.sender]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let menu = `
 > 𝙈𝙀𝙉𝙐 𝘿𝙀 𝙁𝙍𝙀𝙀 𝙁𝙄𝙍𝙀 ⚔. 
-> 𝘏𝘰𝘭𝘢 @${m.sender.split("@")[0]}
-> 𝘧𝘦𝘤𝘩𝘢 : ${week}, ${date} 
+ 𝘏𝘰𝘭𝘢 @${m.sender.split("@")[0]}
+ 𝘧𝘦𝘤𝘩𝘢 : ${week}, ${date} 
  
 ★ 𝙁𝙍𝙀𝙀 𝙁𝙄𝙍𝙀 ★
 ⭐ ➺ 🎫.donarsala
@@ -49,8 +49,7 @@ let menu = `
 ⚔ ➺.16𝘷𝘴16 𝘏𝘏:𝘔𝘔 𝘊𝘙
 ⚔ ➺.20𝘷𝘴20 𝘏𝘏:𝘔𝘔 𝘊𝘙
 ⚔ ➺.24𝘷𝘴24 𝘏𝘏:𝘔𝘔 𝘊𝘙
-⚔ ➺.𝘊𝘶𝘢𝘥𝘳𝘪𝘭𝘢𝘵𝘦𝘳𝘰 𝘏𝘏:𝘔𝘔 𝘊𝘙
- `.trim()
+⚔ ➺.𝘊𝘶𝘢𝘥𝘳𝘪𝘭𝘢𝘵𝘦𝘳𝘰 𝘏𝘏:𝘔𝘔 𝘊𝘙`.trim()
     
 const vi = ['https://qu.ax/yEPo.mp4',
 'https://qu.ax/yEPo.mp4',
