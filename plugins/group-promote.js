@@ -26,7 +26,7 @@ let handler = async (m, {conn, usedPrefix, text}) => {
   } catch (e) {
   } finally {
     conn.groupParticipantsUpdate(m.chat, [user], "promote");
-    conn.reply(m.chat, `🚩 ordenes recibidas`, m);
+    conn.reply(m.chat, `🚩 𝘈𝘤𝘤𝘪𝘰́𝘯 𝘳𝘦𝘢𝘭𝘪𝘻𝘢𝘥𝘢 `, m);
   }
 };
 handler.help = ["*593xxx*", "*@usuario*", "*responder chat*"].map((v) => "promote " + v);
