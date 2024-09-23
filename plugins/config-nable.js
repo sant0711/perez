@@ -45,7 +45,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
         }
       }
       chat.antiLink2 = isEnable;
-      break;
+      break
       
       case 'antiprivado':
       if (m.isGroup) {
