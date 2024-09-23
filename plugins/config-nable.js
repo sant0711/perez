@@ -27,14 +27,14 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     user.useDocument = isEnable
     break
 
-      case 'antitoxic':
+      case 'antilink':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
           throw false
         }
       }
-      chat.antiToxic = isEnable
+      chat.antiLink = isEnable
       break
       
       case 'antiprivado':
