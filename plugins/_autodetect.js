@@ -10,11 +10,11 @@ let usuario = `@${m.sender.split`@`[0]}`
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let users = participants.map(u => conn.decodeJid(u.id))
 if (m.messageStubType == 21) {
-await this.sendMessage(m.chat, { text: `> 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫\n\n⭐: *${usuario}*\n> » 𝐂𝐀𝐌𝐁𝐈𝐎 𝐄𝐋 𝐍𝐎𝐌𝐁𝐑𝐄:\n\n» *${m.messageStubParameters[0]}*`, mentions: [m.sender], mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id) }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
+await this.sendMessage(m.chat, { text: `> 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫\n\n⭐: *${usuario}*\n> » 𝐂𝐀𝐌𝐁𝐈𝐎 𝐄𝐋 𝐍𝐎𝐌𝐁𝐑𝐄:\n\n» 𝐍𝐔𝐄𝐕𝐎 𝐍𝐎𝐌𝐁𝐑𝐄: *${m.messageStubParameters[0]}*`, mentions: [m.sender], mentions: (await conn.groupMetadata(m.chat)).participants.map(v => v.id) }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
 } else if (m.messageStubType == 22) {
 await this.sendMessage(m.chat, { text: `> 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫\n\n⭐: *${usuario}* \n> » 𝐂𝐀𝐌𝐁𝐈𝐎 𝐋𝐀 𝐅𝐎𝐓𝐎`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100}) 
 } else if (m.messageStubType == 24) {
-await this.sendMessage(m.chat, { text: `> 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫\n\n⭐: *${usuario}*\n> » 𝐂𝐀𝐌𝐁𝐈𝐎 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍:\n\n${m.messageStubParameters[0]}`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
+await this.sendMessage(m.chat, { text: `> 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫\n\n⭐: *${usuario}*\n> » 𝐂𝐀𝐌𝐁𝐈𝐎 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍:\n\n» 𝐍𝐔𝐄𝐕𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍: ${m.messageStubParameters[0]}`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 } else if (m.messageStubType == 25) {
 await this.sendMessage(m.chat, { text: `📌 𝐀𝐇𝐎𝐑𝐀 *${m.messageStubParameters[0] == 'on' ? '𝐒𝐎𝐋𝐎 𝐀𝐃𝐌𝐈𝐍𝐒' : '𝐓𝐎𝐃𝐎𝐒'}* 𝐏𝐔𝐄𝐃𝐄𝐍 𝐄𝐃𝐈𝐓𝐀𝐑 𝐋𝐀 𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐂𝐈𝐎́𝐍 𝐃𝐄𝐋 𝐆𝐑𝐔𝐏𝐎`, mentions: [m.sender] }, { quoted: fkontak, ephemeralExpiration: 24*60*100, disappearingMessagesInChat: 24*60*100})
 } else if (m.messageStubType == 26) {
