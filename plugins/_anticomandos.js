@@ -1,4 +1,4 @@
-const toxicRegex = /.s|.menu|.play|.allmenu|.reg/i
+const toxicRegex = /.s|.menu|.menú|.play|.allmenu|.reg/i
 
 let handler = m => m
 handler.before = async function (m, { conn, isAdmin, isBotAdmin, isOwner }) { 
