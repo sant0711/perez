@@ -46,6 +46,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       }
       chat.antiLink2 = isEnable;
       break
+
+      case 'restrict':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('owner', m, conn);
+        throw false;
+      }
+      bot.restrict = isEnable;
+      break
       
       case 'antiprivado':
       if (m.isGroup) {
