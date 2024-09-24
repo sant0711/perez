@@ -88,7 +88,7 @@ export async function handler(chatUpdate) {
                 if (!('bienvenida' in chat))
                     chat.bienvenida = true
                 if (!('sWelcome' in chat)) 
-                    chat.sWelcome = ''
+                    chat.sWelcome = "
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('onlyLatinos' in chat))
@@ -101,7 +101,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     bienvenida: true,
-                    sWelcome: '',
+                    sWelcome: ",
                     antiLink: false,
                     onlyLatinos: false,
                     nsfw: false, 
