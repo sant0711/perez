@@ -85,8 +85,8 @@ export async function handler(chatUpdate) {
             if (chat) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
-                if (!('bienvenida' in chat))
-                    chat.bienvenida = true 
+                if (!('sWelcome' in chat)) 
+                    chat.sWelcome = '' 
                 if (!('antiLink' in chat))
                     chat.antiLink = false
                 if (!('onlyLatinos' in chat))
