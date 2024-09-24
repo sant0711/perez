@@ -10,7 +10,7 @@ export async function before(m, {conn, participants, groupMetadata}) {
   if (chat.bienvenida && m.messageStubType == 27) {
     if (chat.sWelcome) {
       let user = `@${m.messageStubParameters[0].split`@`[0]}`
-      let welcome = chat.sWelcome().replace('@user', () => user);
+      let welcome = chat.sWelcome.replace('@user', () => user);
       await conn.sendAi(m.chat, botname, textbot, welcome, img, img, canal)
     } else {
       let bienvenida = `┌─★ 𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫 \n│「 Bienvenido 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Bienvenido a\n   │✑  ${groupMetadata.subject}\n   └───────────────┈ ⳹`
