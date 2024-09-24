@@ -101,11 +101,11 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     bienvenida: true,
-                    sWelcome: ",
                     antiLink: false,
                     onlyLatinos: false,
                     nsfw: false, 
-                    expired: 0, 
+                    expired: 0,
+                    sWelcome: ",
                 }
             var settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
