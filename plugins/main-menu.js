@@ -22,11 +22,12 @@ let tags = {
   'owner': 'Creador 😺', 
   'audio': 'Audios 🔉', 
   'advanced': 'Avanzado 💠',
+  'freefire': 'Free Fire 📌',
 }
 
 const defaultMenu = {
   before: `
-*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷*
+*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
 “ hello *%name*, Cómo se encuentra el día de hoy? ”
 
@@ -156,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
 
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = ['menu', 'help', 'menú'] 
+handler.command = ['menu', 'help', 'menú', 'comandos', 'allmenu', 'menucompleto', 'funciones'] 
 handler.register = true 
 export default handler
 
