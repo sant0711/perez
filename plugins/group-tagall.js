@@ -19,7 +19,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
 𝘚𝘶𝘱𝘦𝘳 𝘉𝘰𝘵 𝘥𝘦 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱 🌟`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
-handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
+handler.help = ['todos'];
 handler.tags = ['group'];
 handler.command = /^(tagall|invocar|marcar|todos|invocación|ta)$/i;
 handler.admin = true;
