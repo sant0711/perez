@@ -84,5 +84,7 @@ const handler = async (m, { conn, args }) => {
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});
 };
+handler.help = ['24vs24']
+handler.tags = ['freefire']
 handler.command = /^(24vs24|vs24)$/i;
 export default handler;
