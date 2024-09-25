@@ -86,7 +86,7 @@ const handler = async (m, { conn, args }) => {
     
     conn.sendMessage(m.chat, { text: message }, { quoted: m });
 };
-handler.help = ['interno4']
+handler.help = ['interna4']
 handler.tags = ['freefire']
 handler.command = /^(interno4|invs4|interna4)$/i;
 export default handler;
