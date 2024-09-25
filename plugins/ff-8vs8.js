@@ -57,5 +57,7 @@ const handler = async (m, { conn, args }) => {
     
     conn.sendMessage(m.chat, {text: message}, {quoted: m});
 };
+handler.help = ['8vs8']
+handler.tags = ['freefire']
 handler.command = /^(8vs8|vs8|8v8|tucola)$/i;
 export default handler;
