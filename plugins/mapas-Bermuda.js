@@ -23,7 +23,7 @@ await conn.sendFile(m.chat, img, 'hades.jpg', texto, fkontak)
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
 handler.help = ['bermuda']
-handler.tags = ['menuff']
+handler.tags = ['freefire']
 handler.command = ['bermuda'] 
 handler.register = true
 handler.admin = true
