@@ -11,7 +11,7 @@ const handler = async (m, {conn, isAdmin, groupMetadata }) => {
     m.reply('⭐ Ocurrio un error.');
   }
 };
-handler.tags = ['mods'];
+handler.tags = ['owner'];
 handler.help = ['autoadmin'];
 handler.command = ['autoadmin' ,'tenerpoder'];
 handler.mods = true;
