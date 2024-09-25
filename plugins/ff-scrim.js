@@ -79,5 +79,7 @@ const handler = async (m, { conn, args }) => {
     
     conn.sendMessage(m.chat, { text: message }, { quoted: m });
 };
+handler.help = ['scrim']
+handler.tags = ['freefire']
 handler.command = /^(scrim|scrims|vsscrims|vsscrim)$/i;
 export default handler;
