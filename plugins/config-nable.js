@@ -27,6 +27,19 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     user.useDocument = isEnable
     break
 
+      case 'jadibot': 
+      case 'modojadibot': 
+      case 'serbot': 
+      case 'modoserbot': 
+      isAll = true
+      if (!isROwner) {
+      global.dfail('rowner', m, conn)
+      throw false
+      }
+      bot.jadibotmd = isEnable
+      break 
+      
+
       case 'antilink':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
