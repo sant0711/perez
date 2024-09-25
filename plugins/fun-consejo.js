@@ -4,7 +4,7 @@ var handler = async (m, { conn, text}) => {
 
 conn.reply(m.chat, '🚩 Buscando un consejo...', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
-title: "Sisked",
+title: "Pene",
 body: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻" ,
 previewType: 0, thumbnail: icons,
 sourceUrl: channel }}})
