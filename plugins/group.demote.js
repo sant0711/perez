@@ -24,7 +24,7 @@ const handler = async (m, {conn, usedPrefix, text}) => {
     conn.reply(m.chat, `🚩 𝘈𝘤𝘤𝘪𝘰́𝘯 𝘳𝘦𝘢𝘭𝘪𝘻𝘢𝘥𝘢`, m);
   }
 };
-handler.help = ['*593xxx*', '*@usuario*', '*responder chat*'].map((v) => 'demote ' + v);
+handler.help = ['*@usuario*'].map((v) => 'demote ' + v);
 handler.tags = ['group'];
 handler.command = /^(demote|quitarpoder|quitaradmin)$/i;
 handler.group = true;
