@@ -34,7 +34,7 @@ conn.sendFile(m.chat, vn, '🏆ACERQUESE A RECLAMAR SU PREMIO🏅', null, m, tru
 type: 'audioMessage',
 ptt: true })}
 handler.help = handler.command = ['sorteo']
-handler.tags = ['grupos']
+handler.tags = ['group']
 handler.group = true
 handler.limit = 0
 export default handler
