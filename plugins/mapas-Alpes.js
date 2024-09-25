@@ -23,6 +23,8 @@ const fkontak = {
 await conn.sendFile(m.chat, img, 'hades.jpg', texto, fkontak)
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
+handler.help = ['alpes']
+handler.tags = ['menuff']
 handler.command = ['alpes'] 
 handler.register = true
 handler.admin = true
