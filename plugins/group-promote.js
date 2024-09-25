@@ -29,7 +29,7 @@ let handler = async (m, {conn, usedPrefix, text}) => {
     conn.reply(m.chat, `🚩 𝘈𝘤𝘤𝘪𝘰́𝘯 𝘳𝘦𝘢𝘭𝘪𝘻𝘢𝘥𝘢 `, m);
   }
 };
-handler.help = ["*593xxx*", "*@usuario*", "*responder chat*"].map((v) => "promote " + v);
+handler.help = ["@usuario*"].map((v) => "promote " + v);
 handler.tags = ["group"];
 handler.command = /^(promote|daradmin|darpoder)$/i;
 handler.group = true;
