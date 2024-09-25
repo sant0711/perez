@@ -22,6 +22,8 @@ const fkontak = {
 await conn.sendFile(m.chat, img, 'img.jpg', texto, fkontak)
 global.db.data.users[m.sender].lastcofre = new Date * 1
 }
+handler.help = ['reglaslideres']
+handler.tags = ['freefire']
 handler.command = ['reglaslideres'] 
 handler.register = true
 handler.admin = true
