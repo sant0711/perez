@@ -1,4 +1,4 @@
-/* Creditos a https://github.com/ALBERTO9883/NyanCatBot-MD */
+/* Creditos a Sisked */
 
 const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) => {
   if (!(isAdmin || isOwner)) {
@@ -21,7 +21,7 @@ const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) =
 *${usedPrefix + command} open 1*
 *${usedPrefix + command} close 1*
 📌 *𝙴𝙹𝙴𝙼𝙿𝙻𝙾 𝙳𝙴 𝚄𝚂𝙾:* *${usedPrefix + command} close 1* 
-*🌿𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙴𝚂𝚃𝙴 𝙲𝙴𝚁𝚁𝙰𝙳𝙾.𝚄𝙽𝙰.𝙷𝙾𝚁𝙰.*
+*⭐𝙿𝙰𝚁𝙰 𝚀𝚄𝙴 𝙴𝙻 𝙶𝚁𝚄𝙿𝙾 𝙴𝚂𝚃𝙴 𝙲𝙴𝚁𝚁𝙰𝙳𝙾.𝚄𝙽𝙰.𝙷𝙾𝚁𝙰.*
 `;
     m.reply(caption);
 	  throw false;
