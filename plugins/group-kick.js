@@ -1,6 +1,6 @@
 let handler = async (m, { conn, participants, usedPrefix, command, isROwner }) => {
 	
-let kickte = `Menciona al usuario que deseas eliminar.`
+let kickte = `_Menciona al usuario que deseas eliminar._`
 
 if (!m.mentionedJid[0] && !m.quoted) return m.reply(kickte, m.chat, { mentions: conn.parseMention(kickte)}) 
 let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
@@ -11,7 +11,7 @@ m.reply(`🍭 Usuario eliminado.`)
 
 handler.help = ['kick @user']
 handler.tags = ['group']
-handler.command = ['kick', 'expulsar'] 
+handler.command = ['kick', 'expulsar', 'ban', 'eliminar'] 
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
