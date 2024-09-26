@@ -26,8 +26,8 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     isUser = true
     user.useDocument = isEnable
     break
-      
-      case 'serbot': 
+    
+      case 'jadibot': case 'modojadibot': case 'serbot': case 'modoserbot': 
       isAll = true
       if (!isROwner) {
       global.dfail('rowner', m, conn)
