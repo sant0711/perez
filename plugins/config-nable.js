@@ -36,6 +36,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       bot.serbot = isEnable
       break 
 
+      case 'autobiografia': case 'bio': case 'biografia': case 'status': 
+      isAll = true
+      if (!isROwner) {
+      global.dfail('rowner', m, conn)
+      throw false
+      }
+      bot.autobio = isEnable
+      break 
+
       case 'antiprivado':
       isAll = true
       if (!isROwner) {
