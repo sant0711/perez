@@ -26,6 +26,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
     isUser = true
     user.useDocument = isEnable
     break
+
+      case 'modoadmin': case 'soloadmin':
+      if (m.isGroup) {
+      if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+      }}
+      chat.modoadmin = isEnable          
+      break    
     
       case 'jadibot': case 'modojadibot': case 'serbot': case 'modoserbot': 
       isAll = true
@@ -51,7 +60,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       global.dfail('rowner', m, conn)
       throw false
       }
-      bot.antiPrivado = isEnable
+      bot.antiPrivate = isEnable
       break
 
       case 'antilink':
