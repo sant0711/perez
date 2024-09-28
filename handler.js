@@ -87,6 +87,8 @@ export async function handler(chatUpdate) {
                     chat.isBanned = false
                 if (!('bienvenida' in chat))
                     chat.bienvenida = true
+                if (!('modoadmin' in chat)) 
+                    chat.modoadmin = false
                 if (!('audios' in chat))
                     chat.audios = false
                 if (!('antiLink' in chat))
@@ -101,6 +103,7 @@ export async function handler(chatUpdate) {
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
                     bienvenida: true,
+                    modoadmin: false,
                     audios: false,
                     antiLink: false,
                     onlyLatinos: false,
@@ -119,7 +122,7 @@ export async function handler(chatUpdate) {
                 self: false,
                 jadibotmd: true,
                 autobio: false,
-                antiPrivate: false,
+                antiPrivate: true,
                 autoread: false,
                 status: 0
             }
