@@ -14,6 +14,8 @@ let response = await result.json();
 await conn.relayMessage(m.chat, { protocolMessage: { key: msg.key, type: 14, editedMessage: { conversation: response.msg }}}, {});
 } catch {}}
 
-handler.command = handler.help = ["chatgpt", "Ia", "gpt"];
+handler.help = ["Ia"]
+handler.tag = ["search"]
+handler.command = ["chatgpt", "Ia", "gpt"];
 
 export default handler
