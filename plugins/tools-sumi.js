@@ -16,6 +16,6 @@ await conn.relayMessage(m.chat, { protocolMessage: { key: msg.key, type: 14, edi
 
 handler.help = ["Ia"]
 handler.tags = ["search"]
-handler.command = ["chatgpt", "Ia", "gpt"];
+handler.command = ["chatgpt", "ia", "gpt"];
 
 export default handler
