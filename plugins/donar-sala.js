@@ -9,8 +9,9 @@ m.reply(`*${toM(a)},* _le tocó donar una sala estás de mala suerte hoy bájate
 *_SISKED BOT - MD_* 🌟`, null, {
 mentions: [a, b]
 })}
-handler.help = ['formarpareja']
-handler.tags = ['main', 'fun']
+handler.help = ['donarsala']
+handler.tags = ['group']
 handler.command = ['donarsala']
 handler.group = true
+handler.admin = true
 export default handler
