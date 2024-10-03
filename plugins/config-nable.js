@@ -36,13 +36,13 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.modoadmin = isEnable          
       break    
     
-      case 'jadibot': case 'modojadibot': case 'serbot': case 'modoserbot': 
+      case 'jadibotmd': case 'modojadibot': case 'serbotmd': case 'modoserbot': 
       isAll = true
       if (!isROwner) {
       global.dfail('rowner', m, conn)
       throw false
       }
-      bot.serbot = isEnable
+      bot.jadibotmd = isEnable
       break 
 
       case 'autobiografia': case 'bio': case 'biografia': case 'status': 
