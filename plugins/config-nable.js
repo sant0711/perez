@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       throw false
       }}
       chat.modoadmin = isEnable          
-      break    
+      break
     
       case 'jadibotmd': case 'modojadibot': case 'serbotmd': case 'modoserbot': 
       isAll = true
