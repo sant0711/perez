@@ -1,7 +1,7 @@
 {
-  "name": "Sumi-Sakurasawa",
+  "name": "Sisked-Bot",
   "version": "5.0.0",
-  "description": "Simple WhatsApp Bot Multi Device",
+  "description": "Super WhatsApp Bot Multi Device",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/DanielDiod/Sumi-Sakurasawa",
+  "homepage": "https://github.com/Sisked-Bot/Sisked-Bot",
   "author": {
-    "name": "DanielDiod"
+    "name": "Sisked"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DanielDiod/Sumi-Sakurasawa.git"
+    "url": "git+https://github.com/Sisked-Bot/Sisked-Bot.git"
   },
   "bugs": {
-    "url": "https://github.com/DanielDiod/Sumi-Sakurasawa/issues"
+    "url": "https://github.com/Sisked-Bot/Sisked-Bot/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
