@@ -8,6 +8,8 @@ let handler = async (m, { conn }) => {
     switch (text) {
         
         case 'bueno master':
+        case 'A bueno master':
+        case 'Bueno Máster': 
             await conn.sendFile(m.chat, 'https://qu.ax/xynz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
         
@@ -15,7 +17,7 @@ let handler = async (m, { conn }) => {
             
     }
     } else {
-      m.reply('Los audios estan desactivados');
+      m.reply('_Debes activar los audios._');
     }
     
   } catch (err) {
