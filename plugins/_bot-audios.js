@@ -7,8 +7,8 @@ let handler = async (m, { conn }) => {
     if (chat.audios){
     switch (text) {
         
-        case 'bueno master':
-        case 'A bueno master':
+        case 'bueno master'
+        case 'A bueno master'
         case 'Bueno Máster': 
             await conn.sendFile(m.chat, 'https://qu.ax/xynz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
