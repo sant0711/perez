@@ -3,16 +3,19 @@ let handler = async (m, { conn }) => {
   try {
     let text = m.text.toLowerCase();
     
-    
+    if (chat.audios){
     switch (text) {
+        
         case 'bueno master':
             await conn.sendFile(m.chat, 'https://qu.ax/xynz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
         
         default:
-            // code
+            
     }
-    
+    } else {
+      m.reply('Los audios estan desactivados');
+    }
     
   } catch (err) {
     console.error(err);
