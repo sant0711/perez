@@ -1,5 +1,6 @@
 
 let handler = async (m, { conn }) => {
+  let chat = global.db.data.chats[m.chat]
   try {
     let text = m.text.toLowerCase();
     
