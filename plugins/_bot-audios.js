@@ -156,6 +156,51 @@ let handler = async (m, { conn }) => {
             conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/fnTL.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
+
+        case 'y este quien es':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/QnET.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'goku pervertido':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/CUmZ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'tengo los calzones':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/pzRp.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'a nadie le importa':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/JocM.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'mierda de bot':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/UEZQ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'baneado':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/SJJt.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'basado':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/jDAl.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'bien pensado woody':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/nvxb.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'bañate':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/JsYa.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
         
         default:
             
