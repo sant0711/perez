@@ -86,6 +86,36 @@ let handler = async (m, { conn }) => {
             conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/fwek.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
+
+        case 'me anda buscando anonymous':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/MWJz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'momento xds':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/PitP.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'motivacion':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/MXnK.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'muchachos escucharon':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/dRVb.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'nico nico':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/OUyB.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'no rompas mas':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/ZkAp.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
         
         default:
             
@@ -103,7 +133,7 @@ let handler = async (m, { conn }) => {
 
 
 
-handler.customPrefix = /^(Bueno master|eres fuerte|zzzz|las reglas del grupo|no estes tite|FBI|en caso de una investigación|elmo sabe donde vives|corte corte|el toxico|cambiate a movistar|hermoso negro|ara ara|bienvenido wey|in your area|buen dia grupo|calla fan de bts|)/i;
+handler.customPrefix = /^(Bueno master|nico nico|no rompas mas|muchachos escucharon|momento xds|motivacion|me anda buscando anonymous|eres fuerte|zzzz|las reglas del grupo|no estes tite|FBI|en caso de una investigación|elmo sabe donde vives|corte corte|el toxico|cambiate a movistar|hermoso negro|ara ara|bienvenido wey|in your area|buen dia grupo|calla fan de bts|)/i;
 handler.command = new RegExp;
 
 export default handler;
