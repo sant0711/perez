@@ -201,6 +201,151 @@ let handler = async (m, { conn }) => {
             conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/JsYa.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
+
+        case 'buenas noches':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/TTfs.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'bueno si':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/DqBM.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break; 
+
+        case 'buenos dias':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/wLUF.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'me olvide':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/SbX.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'diagnosticado con gay':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/cUl.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'el pepe':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/Efdb.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'trap':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/Vved.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'enojado':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/jqTX.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'entrada':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/UpAC.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'esto va ser epico papus':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/pjTx.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'esto va para ti':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/Tabl.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'feliz cumpleaños':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/UtmZ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'fiesta del admin 2':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/MpnG.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'fiesta del admin':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/jDVi.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'fiesta del admin 3':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/fRz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'fino señores':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/hapR.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'me voy':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/iOky.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'tunometecabrasaramambiche':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/LAAB.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'gemidos':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/bwPL.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'audio hentai':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/GSUY.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'homero chino':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/ebe.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'hora de sexo':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/Mlfu.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'jesucristo':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/AWdx.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'laoracion':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/GeeA.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'marica tu':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/XULE.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'ma ma masivo':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/mNX.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'oh me vengo':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/waHR.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'me pica los cocos':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/UrNl.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
+
+        case 'mmmm':
+            conn.sendPresenceUpdate('recording', m.chat);
+            await conn.sendFile(m.chat, 'https://qu.ax/gxFs.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break;
         
         default:
             
