@@ -8,10 +8,12 @@ let handler = async (m, { conn }) => {
     switch (text) {
         
         case 'bueno master':
-        case 'a bueno master': 
-        case 'bueno máster': 
             await conn.sendFile(m.chat, 'https://qu.ax/xynz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
+
+        case 'hermoso negro':
+            await conn.sendFile(m.chat, 'https://qu.ax/ExSQ.mp3', `${text}.mp3`, null,
+            break;                     
         
         default:
             
@@ -29,7 +31,7 @@ let handler = async (m, { conn }) => {
 
 
 
-handler.customPrefix = /^(Bueno master)/i;
+handler.customPrefix = /^(Bueno master|hermoso negro)/i;
 handler.command = new RegExp;
 
 export default handler;
