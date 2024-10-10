@@ -13,7 +13,19 @@ let handler = async (m, { conn }) => {
 
         case 'hermoso negro':
             await conn.sendFile(m.chat, 'https://qu.ax/ExSQ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
-            break;                     
+            break; 
+
+        case 'ara ara':
+            await conn.sendFile(m.chat, 'https://qu.ax/PPgt.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break; 
+
+        case 'bienvenido wey':
+            await conn.sendFile(m.chat, 'https://qu.ax/cUYg.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break; 
+
+        case 'in your area':
+            await conn.sendFile(m.chat, 'https://qu.ax/pavq.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
+            break; 
         
         default:
             
@@ -31,7 +43,7 @@ let handler = async (m, { conn }) => {
 
 
 
-handler.customPrefix = /^(Bueno master|hermoso negro)/i;
+handler.customPrefix = /^(Bueno master|hermoso negro|ara ara|bienvenido wey|in your area|)/i;
 handler.command = new RegExp;
 
 export default handler;
