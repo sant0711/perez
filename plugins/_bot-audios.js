@@ -12,7 +12,7 @@ let handler = async (m, { conn }) => {
             break;
 
         case 'hermoso negro':
-            await conn.sendFile(m.chat, 'https://qu.ax/ExSQ.mp3', `${text}.mp3`, null,
+            await conn.sendFile(m.chat, 'https://qu.ax/ExSQ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;                     
         
         default:
