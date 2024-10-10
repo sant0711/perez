@@ -8,6 +8,7 @@ let handler = async (m, { conn }) => {
     switch (text) {
         
         case 'bueno master':
+            conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/xynz.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break;
 
