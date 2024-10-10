@@ -13,18 +13,22 @@ let handler = async (m, { conn }) => {
             break;
 
         case 'hermoso negro':
+            conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/ExSQ.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break; 
 
         case 'ara ara':
+            conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/PPgt.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break; 
 
         case 'bienvenido wey':
+            conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/cUYg.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break; 
 
         case 'in your area':
+            conn.sendPresenceUpdate('recording', m.chat);
             await conn.sendFile(m.chat, 'https://qu.ax/pavq.mp3', `${text}.mp3`, null, m, true, { type: 'audioMessage' });
             break; 
         
