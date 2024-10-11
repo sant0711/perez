@@ -626,7 +626,7 @@ let handler = async (m, { conn }) => {
             
     }
     } else {
-      m.reply('_Debes activar los audios._');
+       
     }
     
   } catch (err) {
