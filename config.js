@@ -24,10 +24,10 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫`
-global.author = '{\n "bot": {\n   "name": "𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫",\n     "author": "Anuar",\n   "status_bot": "active"\n }\n}'
-global.wait = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫'
-global.botname = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫'
+global.packname = `𝐃𝐀𝐑𝐋𝐘 𝐁𝐎𝐓 ᡣ𐭩`
+global.author = '{\n "bot": {\n   "name": "𝐃𝐀𝐑𝐋𝐘 𝐁𝐎𝐓 ᡣ𐭩",\n     "author": "Anuar",\n   "status_bot": "active"\n }\n}'
+global.wait = '𝐃𝐀𝐑𝐋𝐘 𝐁𝐎𝐓 ᡣ𐭩'
+global.botname = '𝐃𝐀𝐑𝐋𝐘 𝐁𝐎𝐓 ᡣ𐭩'
 global.textbot = `Powered By Sisked`
 global.listo = 'Completado ✯'
 global.namechannel = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻'
@@ -40,7 +40,7 @@ global.miniurl = fs.readFileSync('./storage/img/siskedurl.jpg')
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.group = 'https://chat.whatsapp.com/JultL94aPtb5AzIeeuDvpX'
+global.group = 'https://chat.whatsapp.com/CTaspTXla9T1zA83m6ZKPe'
 global.canal = 'https://whatsapp.com/channel/0029Vak6H9l3GJP4FJH5063R'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
