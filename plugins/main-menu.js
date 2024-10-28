@@ -30,12 +30,12 @@ const defaultMenu = {
   before: `
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
 
-“ Hola *%name*, Me llamo 𝙎𝘼𝙉𝙏 𝘽𝙊𝙏  ᡣ𐭩 ”
+“ Hola *%name*, Este Es El Menu De 𝙎𝘼𝙉𝙏 𝘽𝙊𝙏 ”
 
 ╭──⬣「 *Info User* 」⬣
-│  ≡◦ *🧸 Nombre ∙* %name
+│  ≡◦ *👻 Nombre ∙* %name
 │  ≡◦ *🍬 Dulces ∙* %limit
-│  ≡◦ *🦋 XP ∙* %totalexp
+│  ≡◦ *😼 XP ∙* %totalexp
 │  ≡◦ *👑 Nivel ∙* %level
 ╰──⬣
 %readmore
@@ -43,9 +43,9 @@ const defaultMenu = {
 
 \t\t\t*L I S T A  -  M E N Ú S*
 `.trimStart(),
-header: '╭──🦋「 *%category* 」🦋',
+header: '╭──⚔️「 *%category* 」⚡',
 body: '│  ≡◦ *%cmd*\n',
-footer: '╰──🧸\n',
+footer: '╰──⚔️\n',
 after: '',
 }
 
