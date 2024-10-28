@@ -1,12 +1,12 @@
 import fetch from 'node-fetch'
 
 let handler  = async (m, { conn, usedPrefix, command }) => {
-let img = await (await fetch(`https://i.ibb.co/27rdXbJ/bot.jpg`)).buffer()
+let img = await (await fetch(`https://i.ibb.co/h1NdKpL/perez.jpg`)).buffer()
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 let txt = `*Hola!, te invito a unirte a los grupos oficiales del Bot para convivir con la comunidad :D*
 
-> 🧸 Enlace Grupo Ofc 𝙎𝘼𝙉𝙏 𝘽𝙊𝙏  ᡣ𐭩
+> 🧸 Enlace Grupo Ofc 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 
 
 *🎌* ${group}
 

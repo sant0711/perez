@@ -14,7 +14,7 @@ let txt = '`- 乂  S C R I P T  -  M A I N`\n\n'
     txt += `	•   *Forks* : ${json.forks_count}\n`
     txt += `	•   *Stars* : ${json.stargazers_count}\n\n`
     txt += `> 🚩 *${textbot}*`
-let img = await (await fetch(`https://i.ibb.co/27rdXbJ/bot.jpg`)).buffer()
+let img = await (await fetch(`https://i.ibb.co/h1NdKpL/perez.jpg`)).buffer()
 
 await conn.sendAi(m.chat, botname, textbot, txt, img, img, canal, m)
 } catch {
@@ -22,6 +22,6 @@ await m.react('✖️')
 }}
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['script', 'sc']
+handler.command = ['scgdkoxfffbdbript', 'sggfjyc']
 handler.register = true 
 export default handler

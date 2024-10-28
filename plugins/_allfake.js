@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://i.ibb.co/27rdXbJ/bot.jpg',
+					thumbnailUrl: 'https://i.ibb.co/h1NdKpL/perez.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false

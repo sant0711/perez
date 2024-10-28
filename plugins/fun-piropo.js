@@ -1,7 +1,7 @@
-/* By Sant */
+/* By Perez */
 
 const handler = async (m, {conn, text}) => {
-  m.reply(`*➢ "${pickRandom(global.piropo)}"*\n\n*𝙎𝘼𝙉𝙏 𝘽𝙊𝙏-𝑴𝑫 👑*`);
+  m.reply(`*➢ "${pickRandom(global.piropo)}"*\n\n*𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳-𝑴𝑫 👑*`);
 };
 handler.help = ['piropo']
 handler.tags = ['fun'];

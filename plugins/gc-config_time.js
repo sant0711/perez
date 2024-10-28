@@ -1,4 +1,4 @@
-/* Creditos a Sant */
+/* Creditos a Perez */
 
 const handler = async (m, {conn, isAdmin, isOwner, args, usedPrefix, command}) => {
   if (!(isAdmin || isOwner)) {
