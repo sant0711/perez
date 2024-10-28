@@ -23,7 +23,7 @@ let tags = {
   'audio': 'Audios 🔉', 
   'advanced': 'Avanzado 💠',
   'freefire': 'Free Fire 📌',
-  'anime': 'Anime 🌸',
+  'anime': 'Anime 👑',
 }
 
 const defaultMenu = {
@@ -36,7 +36,7 @@ const defaultMenu = {
 │  ≡◦ *🧸 Nombre ∙* %name
 │  ≡◦ *🍬 Dulces ∙* %limit
 │  ≡◦ *🦋 XP ∙* %totalexp
-│  ≡◦ *🌸 Nivel ∙* %level
+│  ≡◦ *👑 Nivel ∙* %level
 ╰──⬣
 %readmore
 *꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷꒦꒷*
