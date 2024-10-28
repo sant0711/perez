@@ -6,7 +6,7 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 let txt = `*Hola!, te invito a unirte a los grupos oficiales del Bot para convivir con la comunidad :D*
 
-> 🧸 Enlace Grupo Ofc 𝐃𝐀𝐑𝐋𝐘 𝐁𝐎𝐓 ᡣ𐭩
+> 🧸 Enlace Grupo Ofc 𝙎𝘼𝙉𝙏 𝘽𝙊𝙏  ᡣ𐭩
 
 *🎌* ${group}
 

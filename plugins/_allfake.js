@@ -9,7 +9,7 @@ let img = catalogo
     forwardedNewsletterMessageInfo: {
       newsletterJid: "12098765423@newsletter",
       serverMessageId: 100,
-      newsletterName: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
+      newsletterName: '𝙎𝘼𝙉𝙏-𝘽𝙊𝙏',
     },
 	    externalAdReply: {
 				    showAdAttribution: true,
@@ -18,7 +18,7 @@ let img = catalogo
 					mediaUrl: null,
 					description: null,
 					previewType: "PHOTO",
-					thumbnailUrl: 'https://qu.ax/FNsw.jpg',
+					thumbnailUrl: 'https://i.ibb.co/27rdXbJ/bot.jpg',
 		           sourceUrl: canal,
 		           mediaType: 1,
                    renderLargerThumbnail: false
