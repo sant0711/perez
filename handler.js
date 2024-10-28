@@ -89,8 +89,6 @@ export async function handler(chatUpdate) {
                     chat.bienvenida = true
                 if (!('modoadmin' in chat)) 
                     chat.modoadmin = false
-                if (!('detect' in chat)) 
-                    chat.detect = true
                 if (!('audios' in chat))
                     chat.audios = false
                 if (!('antiLink' in chat))
@@ -106,7 +104,6 @@ export async function handler(chatUpdate) {
                     isBanned: false,
                     bienvenida: true,
                     modoadmin: false,
-                    detect: true,
                     audios: false,
                     antiLink: false,
                     onlyLatinos: false,
@@ -117,14 +114,10 @@ export async function handler(chatUpdate) {
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
                 if (!('self' in settings)) settings.self = false
-                if (!('jadibotmd' in settings)) settings.jadibotmd = false
-               if (!('autobio' in settings)) settings.autobio = false
                 if (!('antiPrivate' in settings)) settings.antiPrivate = false
                 if (!('autoread' in settings)) settings.autoread = false
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
-                jadibotmd: false,
-                autobio: false,
                 antiPrivate: true,
                 autoread: false,
                 status: 0
@@ -425,12 +418,12 @@ global.dfail = (type, m, conn, usedPrefix) => {
         owner: `💮 Hola, este comando solo puede ser utilizado por el *Creador* del Bot y *Sub Bots*.`,
         mods: `👑 Hola, este comando solo puede ser utilizado por los *Moderadores* de la Bot.`,
         premium: `🖤 Hola, este comando solo puede ser utilizado por Usuarios *Premium*.`,
-        group: `🧸 Hola, este comando solo puede ser utilizado en *Grupos*.`,
-        private: `✨ Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
-        admin: `📌 Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
+        group: `🫰🏻 Hola, este comando solo puede ser utilizado en *Grupos*.`,
+        private: `🔓 Hola, este comando solo puede ser utilizado en mi Chat *Privado*.`,
+        admin: `⚡ Hola, este comando solo puede ser utilizado por los *Administradores* del Grupo.`,
         botAdmin: `👑 Hola, el bot debe ser *Administrador* para ejecutar este Comando.`,
-        unreg: `🧸 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Darly.17`,
-        restrict: `🦋 Hola, esta característica está *deshabilitada.*`  
+        unreg: `🤯 Hola, para usar este comando debes estar *Registrado.*\n\nUtiliza: */reg nombre.edad*\n\n> Ejemplo: /reg Santi.24`,
+        restrict: `👻 Hola, esta característica está *deshabilitada.*`  
     }[type]
     if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))
 }
